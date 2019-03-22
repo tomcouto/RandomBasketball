@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">BasketballRandom</string>
+    <string name="player_name">Name:  </string>
+    <string name="player_pos">Position:  </string>
+    <string name="player_team">Team:  </string>
+    <string name="player_div">Division:  </string>
+    <string name="player_conf">Conference:  </string>
+
+</resources>

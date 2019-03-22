@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PlayerActivity"
+    android:background="#ffffff"
+    android:id="@+id/relativelayout">
+
+    <include
+        layout="@layout/toolbar_main"
+        android:id="@+id/toolbar"
+        />
+
+    <TextView
+        android:id="@+id/playerName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:text="@string/player_name"
+        android:textSize="24sp"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:id="@+id/playerPos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/playerName"
+        android:layout_marginTop="20dp"
+        android:text="@string/player_pos"
+        android:textSize="24sp"
+        tools:text="Position:"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:id="@+id/playerTeam"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/playerPos"
+        android:layout_marginTop="20dp"
+        android:text="@string/player_team"
+        android:textSize="24sp"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:id="@+id/playerDivision"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/playerTeam"
+        android:layout_marginTop="20dp"
+        android:text="@string/player_div"
+        android:textSize="24sp"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:id="@+id/playerConf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/playerDivision"
+        android:layout_marginTop="20dp"
+        android:text="@string/player_conf"
+        android:textSize="24sp"
+        android:textColor="#000000"/>
+
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/playerConf"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:fontFamily="serif"
+        android:text="Return"
+        android:textSize="24sp"
+        android:textColor="#000000"/>
+</RelativeLayout>
